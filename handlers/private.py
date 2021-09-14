@@ -35,23 +35,23 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-🌠𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 \n🌺𝗥𝘂𝗻 𝗢𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗩𝗣𝗦 𝗦𝗲𝗿𝘃𝗲𝗿 \n🌼𝗙𝗲𝗲𝗹 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗩𝗖 \n⭐𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 [𝗛𝗲𝘅𝗼𝗿](https://t.me/Its_Hexor)**
+🌠𝚃𝚑𝚒𝚜 𝙸𝚜 𝙰𝚍𝚟𝚊𝚗𝚌𝚎 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙼𝚞𝚜𝚒𝚌 𝙱𝚘𝚝 \n🌺𝚁𝚞𝚗 𝙾𝚗 𝚅𝙿𝚂 𝚂𝚎𝚛𝚟𝚎𝚛 \n🌼𝙵𝚎𝚎𝚕 𝙷𝚒𝚐𝚑 𝚀𝚞𝚊𝚕𝚒𝚝𝚢 𝙼𝚞𝚜𝚒𝚌 𝙸𝚗 𝚅𝙲\n😎𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢[𝙰𝙼𝙰𝙽](https://t.me/A_4_AMAN_official)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/Sanki_Owner")
+                        "❰𝙾𝚆𝙽𝙴𝚁❱", url="https://t.me/A_4_AMAN_official")
                   ],[
                     InlineKeyboardButton(
-                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱", url="https://t.me/SankiPublicEnjoy"
+                        "❰𝚂𝚞𝚙𝚙𝚘𝚛𝚝❱", url="https://t.me/ACF_OP_BOLTE"
                     ),
                     InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽❱", url="https://t.me/Prayagraj_Op"
+                        "❰𝙶𝚛𝚘𝚞𝚙❱", url="https://t.me/ACF_OP_BOLTE"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝗖𝗼𝗺𝗺𝗮𝗱𝘀❱", url="https://telegra.ph/%EA%9C%B1%E1%B4%8D%E1%B4%8F%E1%B4%8B%E1%B4%87%CA%80-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%CA%99%E1%B4%8F%E1%B4%9B-%E1%B4%84%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85%EA%9C%B1-08-29"
+                        "❰𝙼𝚘𝚛𝚎 𝙸𝚗𝚏𝚘❱", url="https://t.me/shivamdemon"
                     )]
             ]
         ),
@@ -64,15 +64,15 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **ʜᴇxᴏʀ ꜱᴇʀᴠᴇʀ ɪꜱ ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
+        f"""✅ **𝙰𝙼𝙰𝙽 𝚂𝙴𝚁𝚅𝙴𝚁 𝙸𝚂 𝚁𝚄𝙽𝙽𝙸𝙽𝙶**\n<b>💠 **𝚄𝙿𝚃𝙸𝙼𝙴:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Prayagraj_Op"
+                        "✨ 𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/ACF_OP_BOLTE"
                     ),
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Prayagraj_Op"
+                        "📣 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=f"https://t.me/ACF_OP_BOLTE"
                     )
                 ]
             ]
@@ -97,7 +97,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🌳ʜᴇxᴏʀ ꜱᴛᴀᴛᴜꜱ:\n"
+        "🌳 ᴀᴍᴀɴ ꜱᴛᴀᴛᴜꜱ:\n"
         f"• **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
         f"• **ꜱᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`"
     )
