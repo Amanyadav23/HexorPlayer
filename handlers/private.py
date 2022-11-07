@@ -35,23 +35,23 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-🌠𝚃𝚑𝚒𝚜 𝙸𝚜 𝙰𝚍𝚟𝚊𝚗𝚌𝚎 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙼𝚞𝚜𝚒𝚌 𝙱𝚘𝚝 \n🌺𝚁𝚞𝚗 𝙾𝚗 𝚅𝙿𝚂 𝚂𝚎𝚛𝚟𝚎𝚛 \n🌼𝙵𝚎𝚎𝚕 𝙷𝚒𝚐𝚑 𝚀𝚞𝚊𝚕𝚒𝚝𝚢 𝙼𝚞𝚜𝚒𝚌 𝙸𝚗 𝚅𝙲\n😎𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢[𝙰𝙼𝙰𝙽](https://t.me/A_4_AMAN_official)**
+🌠𝚃𝚑𝚒𝚜 𝙸𝚜 𝙰𝚍𝚟𝚊𝚗𝚌𝚎 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙼𝚞𝚜𝚒𝚌 𝙱𝚘𝚝 \n🌺𝚁𝚞𝚗 𝙾𝚗 𝚅𝙿𝚂 𝚂𝚎𝚛𝚟𝚎𝚛 \n🌼𝙵𝚎𝚎𝚕 𝙷𝚒𝚐𝚑 𝚀𝚞𝚊𝚕𝚒𝚝𝚢 𝙼𝚞𝚜𝚒𝚌 𝙸𝚗 𝚅𝙲\n😎𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢[𝙰𝙼𝙰𝙽](https://t.me/A_4_AMAN_yadav_0fficial)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰𝙾𝚆𝙽𝙴𝚁❱", url="https://t.me/A_4_AMAN_official")
+                        "❰𝙾𝚆𝙽𝙴𝚁❱", url="https://t.me/A_4_AMAN_yadav_0fficial")
                   ],[
                     InlineKeyboardButton(
-                        "❰𝚂𝚞𝚙𝚙𝚘𝚛𝚝❱", url="https://t.me/ACF_OP_BOLTE"
+                        "❰𝚂𝚞𝚙𝚙𝚘𝚛𝚝❱", url="https://t.me/A_4_aman_yadav_0fficial"
                     ),
                     InlineKeyboardButton(
-                        "❰𝙶𝚛𝚘𝚞𝚙❱", url="https://t.me/ACF_OP_BOLTE"
+                        "❰𝙶𝚛𝚘𝚞𝚙❱", url="https://t.me/A_4_aman_yadav_0fficial"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝙼𝚘𝚛𝚎 𝙸𝚗𝚏𝚘❱", url="https://t.me/shivamdemon"
+                        "❰𝙼𝚘𝚛𝚎 𝙸𝚗𝚏𝚘❱", url="https://t.me/A_4_aman_yadav_0fficial"
                     )]
             ]
         ),
@@ -69,10 +69,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ 𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/ACF_OP_BOLTE"
+                        "✨ 𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/A_4_aman_yadav_0fficial"
                     ),
                     InlineKeyboardButton(
-                        "📣 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=f"https://t.me/ACF_OP_BOLTE"
+                        "📣 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=f"https://t.me/A_4_aman_yadav_0fficial"
                     )
                 ]
             ]
